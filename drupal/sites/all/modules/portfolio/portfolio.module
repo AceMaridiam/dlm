@@ -1,0 +1,42 @@
+<?php
+
+function portfolio_menu() {
+  $items = array();
+
+  //process page
+  $items["portfolio"] = array(
+    'title' => "",
+    'description' => "",
+    'page callback' => 'portfolio_page',
+    'type' => MENU_CALLBACK,
+    'access callback' => true
+  );
+
+  return $items;
+}
+
+function portfolio_page() {
+
+  drupal_add_css(drupal_get_path("module", "portfolio") . '/portfolio.css');
+  drupal_add_js(drupal_get_path("module", "portfolio") . '/portfolio.js');
+
+  $form = array();
+
+  $form['header'] = array(
+    'markup' => "<div class='header container-fluid'><div class='social_nav'></div><div class='bottom_line></div>'"
+  );
+
+  $form['main_navigation'] = array(
+    '#markup' => "<div class='container'><div class='nav'>"
+  );
+
+  $form['slider'] = array(
+    '#markup' => "<div class='slider'><h1>hello</h1></div>"
+  );
+
+  $form['latest_block'] = array(
+    '#markup' => "<div class='latest'><h1>hello</h1></div>"
+  );
+
+  return $form;
+}

@@ -1,0 +1,231 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 3, ../sass/custom.scss */
+body {
+  background: #000;
+}
+
+/* line 7, ../sass/custom.scss */
+.block:first-child h2.block-title {
+  display: none;
+}
+
+/* line 11, ../sass/custom.scss */
+.header {
+  border-bottom: 25px solid #81c5fe;
+  margin-bottom: 5px;
+}
+/* line 14, ../sass/custom.scss */
+.header .nav > li {
+  display: inline-block;
+  float: right;
+  padding-left: 2%;
+}
+
+/* line 21, ../sass/custom.scss */
+.row {
+  margin-bottom: 5px;
+}
+
+/* line 25, ../sass/custom.scss */
+#header {
+  width: 100%;
+  height: 200px;
+  background: #81c5fe;
+}
+
+/* line 31, ../sass/custom.scss */
+.region-header {
+  background: #0e2d46;
+  border-bottom: 5px solid #000;
+}
+/* line 34, ../sass/custom.scss */
+.region-header .menu {
+  padding: 5px 10%;
+}
+
+/* line 39, ../sass/custom.scss */
+#page-header {
+  border-bottom: 2px solid #fff;
+}
+
+/* line 43, ../sass/custom.scss */
+#navbar {
+  height: auto;
+  background: url("../images/dead_guy_logo.png") right -11px no-repeat;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #fff;
+}
+/* line 48, ../sass/custom.scss */
+#navbar a {
+  color: #e3831c;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+}
+/* line 54, ../sass/custom.scss */
+#navbar a:hover {
+  color: #fff;
+}
+
+/* line 59, ../sass/custom.scss */
+section#block-system-main-menu {
+  display: inline;
+  width: 30%;
+  float: left;
+}
+
+/* line 65, ../sass/custom.scss */
+.region-slider, .region-content {
+  border: 2px solid #a19f9f;
+  border-radius: 15px;
+  padding: 10px;
+  min-height: 200px;
+}
+
+/* line 72, ../sass/custom.scss */
+.region-content {
+  background: #0e2d46;
+}
+/* line 74, ../sass/custom.scss */
+.region-content p {
+  color: #fff;
+}
+
+/* line 79, ../sass/custom.scss */
+.region-slider {
+  background: url("../images/cork.png") no-repeat;
+  background-size: cover;
+}
+/* line 82, ../sass/custom.scss */
+.region-slider p, .region-slider h2 {
+  color: #fff;
+}
+
+/* line 88, ../sass/custom.scss */
+.nav > li > a, #block-system-main h2 a, .submitted {
+  color: orange;
+  font-family: impact;
+}
+
+/* line 93, ../sass/custom.scss */
+.nav > li > a {
+  font-size: 2em;
+}
+
+/* line 97, ../sass/custom.scss */
+.nav > li > a:hover, .nav > li > a:focus {
+  background: transparent;
+  color: #fff;
+}
+
+/* line 102, ../sass/custom.scss */
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+/* line 107, ../sass/custom.scss */
+#main-wrapper {
+  width: 65%;
+  height: auto;
+  float: left;
+  background: green;
+}
+
+/* line 114, ../sass/custom.scss */
+.region-header .links a:link, .links a:visited {
+  display: block;
+  height: 36px;
+}
+
+/* line 120, ../sass/custom.scss */
+.region-header .leaf a {
+  background: url(../images/youtube.png) no-repeat;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+}
+
+/* line 127, ../sass/custom.scss */
+.region-header .first.leaf a {
+  background: url(../images/twitter.png) no-repeat;
+  width: 50px;
+  height: 50px;
+  font-size: 0;
+}
+
+/* line 134, ../sass/custom.scss */
+.region-header .last.leaf a {
+  background: url(../images/facebook.png) no-repeat;
+  width: 51px;
+  height: 51px;
+  font-size: 0;
+}
