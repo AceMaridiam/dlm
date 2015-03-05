@@ -1,0 +1,11 @@
+.main-slideshow {
+  background: url("../images/cork.png") no-repeat;
+  background-size: cover;
+  min-height: 200px;
+  max-height: 350px;
+  border-radius: 15px;
+  border: 1px solid $light-blue;
+    p, h2 {
+      color: $white;
+    }
+}

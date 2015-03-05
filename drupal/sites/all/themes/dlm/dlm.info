@@ -8,14 +8,15 @@ base theme = bootstrap
 ;; Regions
 ;;;;;;;;;;;;;;;;;;;;;
 
-regions[header] = 'Header'
-regions[social_nav] = 'Social Navigation'
-regions[user_menu] = 'User Menu'
+regions[page_top] = 'Page Top'
 regions[main_menu] = 'Main Menu'
+regions[header] = 'Header'
+regions[social] = 'Social Navigation'
 regions[navigation] = 'Navigation'
-regions[slider] = 'Sidebar Top Right'
-regions[sidebar_bottom] = 'Secondary Bottom'
+regions[slideshow] = 'Slideshow'
 regions[content] = 'Content'
+regions[latest_info] = 'Latest Info'
+regions[footer] = 'Footer'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
@@ -23,6 +24,7 @@ regions[content] = 'Content'
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bootstrap.min.css
 
 
 ; For information on choosing the desired method, please read the Drupal
@@ -54,12 +56,6 @@ stylesheets[all][] = css/style.css
 ; settings[bootstrap_cdn] = ''
 
 
-; ;-------------------------
-; ; METHOD 2: Bootstrap CDN
-; ;-------------------------
-;
-; Method 2 uses BootstrapCDN, the only thing you might need to provide here
-; is overrides to Bootstrap theme settings. Copy them here from the base theme
-; to override.
+
 
 
