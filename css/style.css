@@ -79,6 +79,11 @@
 			font-size: 1.5em;
 		}
 
+		.section-header {
+			border-bottom: 1px solid #336688;
+			margin-bottom: 10px;
+		}
+
 	header
 	{
 		margin: 0 0 2em 0;
