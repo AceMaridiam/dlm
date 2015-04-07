@@ -107,11 +107,12 @@
 							<div class="row">
 								<div class="4u">
 									<article class="item">
-										<a href="http://www.dougink.net" class="image fit" target="_blank"><img src="images/dougink.jpg" alt="DougInk - The pen and ink art of Douglas Haghan." /></a>
+										<a href="http://www.dougink.net" class="image fit" target="_blank"><img src="images/dougink.jpg" alt="DougInk - The pen and ink art of Douglas Haghan." />
 										<header>
 											<h3>Dougink.net - The Pen and Ink drawings of Douglas Haghan.</h3>
 											<p>Site built using a Wordpress theme.  Will be getting a facelift soon.</p>
 										</header>
+										</a>
 									</article>
 									<article class="item">
 										<a href="andermation.net/thefreeboxshow" class="image fit" target="_blank"><img src="images/freebox.jpg" alt="The Freebox" /></a>
@@ -254,26 +255,28 @@
 
 							<p>If you're looking for a site designed, coded and or integrated into a CMS; such as WordPress or Drupal.  Or, if you have a video idea that you want to see come to life.  Send me a message and I will get back to you shortly.</p>
 							
-							<form method="post" action="#">
-								<div class="row 50%">
-									<div class="6u"><input type="text" name="subject" placeholder="Subject" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="6u"><input type="text" name="customer_mail" placeholder="Email" /></div>
-								</div>
-								<div class="row 50%">
-									<div class="12u">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-								</div>
-								<div class="row">
-									<div class="12u">
-										<input type="submit" value="Send Message" action="send_contact.php"/>
-										<input type="reset" value="Reset">
-									</div>
-								</div>
-							</form>
+							<form method="post" action="send_contact.php">
+
+                    <div class="row 50%">
+                        <div class="6u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="6u"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                        <div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="12u">
+                            <textarea name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="12u">
+                            <input type="submit" value="Send"/>
+                            <input type="reset" value="Reset">
+                        </div>
+                    </div>
+
+                </form>
 
 						</div>
 					</section>
