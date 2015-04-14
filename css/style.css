@@ -1,6 +1,7 @@
 @charset 'UTF-8';
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import url("hover_effect.css");
 
 /*
 	Prologue by HTML5 UP
@@ -82,6 +83,7 @@
 		.section-header {
 			border-bottom: 1px solid #336688;
 			margin-bottom: 10px;
+			clear: both;
 		}
 
 	header
@@ -797,3 +799,10 @@
 			{
 				background-color: #e8edec;
 			}
+
+	.video-sections {
+		clear: both;
+	}
+
+
+			
