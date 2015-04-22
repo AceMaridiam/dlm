@@ -6,20 +6,24 @@
 -->
 <html>
 	<head>
-		<title>Die Laughing Media | Web & Video</title>
+		<title>Prologue by HTML5 UP</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
 		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.scrollzer.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-wide.css" />
-			<!-- <link rel="stylesheet" href="js/colorbox/example3/colorbox.css" /> -->
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
-
 	</head>
 	<body>
 
@@ -30,7 +34,7 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/avatar.jpg" alt="Paul Ryan Anderson's avatar.  Dressed to kill!" /></span>
+							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
 							<h1 id="title">Paul R Anderson</h1>
 							<p>Jr Web Developer<br>Video Producer</p>
 						</div>
@@ -79,14 +83,19 @@
 
 				<!-- Intro -->
 					<section id="top" class="one dark cover">
-
 						<div class="container">
 
-							<iframe frameborder="0" height="100%" width="100%" 
-					    	src="https://www.youtube.com/embed/KSWxkOP6ods?rel=0&amp;showinfo=0">
-					  	</iframe>
-						</div>
+							<header>
+								<h2 class="alt">I'm <strong>Paul Anderson</strong>
+								<p>Frontend Web Developer<br />
+								and Video Producer.</p>
+							</header>
+							
+							<footer>
+								<a href="#portfolio" class="button scrolly">Checkout My stuff below</a>
+							</footer>
 
+						</div>
 					</section>
 					
 				<!-- Portfolio -->
@@ -97,175 +106,132 @@
 								<h2>Portfolio</h2>
 							</header>
 							
-							<h2 class="section-header">Web</h2>
-
-							<div class="grid">
-								<a href="http://www.dougink.net" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/dougink.jpg" alt="Dougink"/>
-									<figcaption>
-										<div>
-											<h2>DougInk</h2>
-											<p>Built from Wordpress Template</p>
-										</div>
-									</figcaption>			
-								</figure></a>
-								<a  href="http://www.hardcoreflorist.com" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/hardcoreflorist.jpg" alt="Hardcore Florist"/>
-									<figcaption>
-										<div>
-											<h2>Hardcore Florist</h2>
-											<p>Designed and custum built Wordpress template</p>
-										</div>
-									</figcaption>			
-								</figure></a>
-								<a  href="http://www.andermation.net/thefreeboxshow" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/freebox.jpg" alt="The Freebox Show"/>
-									<figcaption>
-										<div>
-											<h2>The Freebox</h2>
-											<p>Designed and coded HTML/CSS</p>
-										</div>
-									</figcaption>			
-								</figure></a>
-								<a  href="http://www.whiffies.com" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/whiffies.jpg" alt="Whiffies"/>
-									<figcaption>
-										<div>
-											<h2>Whiffies</h2>
-											<p>Designed and built with HTML/CSS</p>
-										</div>
-									</figcaption>			
-								</figure></a>
-								<a  href="http://www.andermation.net/school_projects/par_productions" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/parproductions.png" alt="Par Productions"/>
-									<figcaption>
-										<div>
-											<h2>Par Productions</h2>
-											<p>Designed and built with HTML/CSS</p>
-										</div>
-									</figcaption>			
-								</figure></a>
-								<a  href="http://www.andermation.net/dielaughingfilms/testing" target="_blank">
-								<figure class="effect-hover">
-									<img src="images/vanessamcmillin.png" alt="Vanessa McMillin Events"/>
-									<figcaption>
-										<div>
-											<h2>Vanessa McMillin Events</h2>
-											<p>Designed and coded HTML/CSS</p>
-										</div>
-									</figcaption>			
-								</figure></a>
+							<p>Here are sites I've designed or coded or both.</p>
+						
+							<div class="row">
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.dougink.net" class="image fit"><img src="images/dougink.jpg" alt="DougInk" /></a>
+										<header>
+											<h3>DougInk</h3>
+										</header>
+									</article>
+									<article class="item">
+										<article class="item">
+										<a href="http://www.hardcoreflorist.com" class="image fit"><img src="images/hardcoreflorist.jpg" alt="Hardcore Florist"/></a>
+										<header>
+											<h3>Hardcore Florist</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.andermation.net/thefreeboxshow" class="image fit"><img src="images/freebox.jpg" alt="The Freebox Show"/></a>
+										<header>
+											<h3>The Freebox Show</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="href="http://www.whiffies.com"" class="image fit"><img src="images/whiffies.jpg" alt="Whiffies"/></a>
+										<header>
+											<h3>Whiffies</h3>
+										</header>
+									</article>
+								</div>
+								<div class="4u">
+									<article class="item">
+										<a href="http://www.andermation.net/school_projects/par_productions" class="image fit"><img src="images/parproductions.png" alt="Par Productions"/>
+										<header>
+											<h3>Par Productions</h3>
+										</header>
+									</article>
+									<article class="item">
+										<a href="http://www.andermation.net/dielaughingfilms/testing" class="image fit"><img src="images/vanessamcmillin.png" alt="Vanessa McMillin Events"/></a>
+										<header>
+											<h3>Vanessa McMillin Events</h3>
+										</header>
+									</article>
+								</div>
 							</div>
 
-							<h2 class="section-header">Video</h2>
-							<h3>Professional</h3>
+							<header>
+								<h2>Portfolio</h2>
+							</header>
 
-							<div class="grid">
-								<a href="https://www.youtube.com/embed/pIyIW1536C8?rel=0&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/pIyIW1536C8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Echo Audio Spot</h2>
-											<p><a href="http://www.smartshoot.com">SmartShoot</a>: Shot and edited</p>
-										</div>
-									</figcaption>	 -->		
-								</figure></a>
-								<a href="https://www.youtube.com/embed/bIHb9zQY9sA?list=PLA65DE2720FAB605C&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/bIHb9zQY9sA?list=PLA65DE2720FAB605C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Echo Audio Spot</h2>
-											<p><a href="http://www.smartshoot.com">SmartShoot</a>: Shot and edited</p>
-										</div>
-									</figcaption>		 -->	
-								</figure></a>
-								<a href="https://www.youtube.com/embed/y_DrWak_NF4?list=PLA65DE2720FAB605C&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/y_DrWak_NF4?list=PLA65DE2720FAB605C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Pacific Sports Turf</h2>
-											<p>Trade Video</p>
-										</div>
-									</figcaption>		 -->	
-								</figure></a>
+							<div class="row">
+								<div class="4u">
+									<h3>Professional</h3>
+
+									<article class="item">
+										<iframe width="100%" min-height="240px" height="100%" src="https://www.youtube.com/embed/pIyIW1536C8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Echo Audio</h3>
+										</header>
+									</article>
+									<article class="item">
+										<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/bIHb9zQY9sA?list=PLA65DE2720FAB605C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>OneEconomy Health Care - PSA</h3>
+										</header>
+									</article>
+									<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/y_DrWak_NF4?list=PLA65DE2720FAB605C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Pacific Sports Turf - Trade Video</h3>
+										</header>
+									</article>
+									</div>
+								<div class="4u">
+									<h3>Skits</h3>
+
+									<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KSWxkOP6ods?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Macho Man Tea Kettle</h3>
+										</header>
+									</article>
+									<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/89OjVk5ZF8U?list=PLEADC172D34B22475&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Knife-Knife</h3>
+										</header>
+									</article>
+									<article class="item">
+										<figure>
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/5GPcbza699E?list=PLEADC172D34B22475&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Couch Bomb</h3>
+										</header>
+									</article>
+									</div>
+								<div class="4u">
+									<h3>Short Films</h3>
+
+									<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/cwBdL2Y63z0?list=PL3702BD1DF5AE219C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>The Curse of Song</h3>
+										</header>
+									</article>
+									<article class="item">
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zjQuiHUgFXs?list=PL3702BD1DF5AE219C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Shave 3</h3>
+										</header>
+									</article>
+									<article class="item">
+										<figure>
+										<iframe width="100%" height="100%" src="https://www.youtube.com/embed/VbXO3VhXAA0?list=UUbE5PV-S-t8SNvvgaWG48Fg&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+										<header>
+											<h3>Joke</h3>
+										</header>
+									</article>
+									</div>
+
+								</div>
 							</div>
 
-							<h3 class="video-sections">Skits</h3>
-
-							<div class="grid">
-								<a href="https://www.youtube.com/embed/KSWxkOP6ods?rel=0&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/KSWxkOP6ods?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Macho Man Tea Kettle</h2>
-											<p>Wrote, Shot and Edited</p>
-										</div>
-									</figcaption>		 -->	
-								</figure></a>
-								<a href="https://www.youtube.com/embed/89OjVk5ZF8U?list=PLEADC172D34B22475&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/89OjVk5ZF8U?list=PLEADC172D34B22475&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Knife-Knife</h2>
-											<p>Wrote, Shot and Edited</p>
-										</div>
-									</figcaption>	 -->		
-								</figure></a>
-								<a href="https://www.youtube.com/embed/5GPcbza699E?list=PLEADC172D34B22475&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/5GPcbza699E?list=PLEADC172D34B22475&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Couch Bomb</h2>
-											<p>Wrote, Shot and Edited</p>
-										</div>
-									</figcaption>		 -->
-								</figure></a>
-							</div>
-
-							<h3 class="video-sections">Short Films</h3>
-
-							<div class="grid">
-								<a href="https://www.youtube.com/embed/cwBdL2Y63z0?list=PL3702BD1DF5AE219C&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/cwBdL2Y63z0?list=PL3702BD1DF5AE219C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>The Curse of Song</h2>
-											<p>Wrote, Shot and Edited</p>
-										</div>
-									</figcaption>		 -->
-								</figure></a>
-								<a href="https://www.youtube.com/embed/zjQuiHUgFXs?list=PL3702BD1DF5AE219C&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/zjQuiHUgFXs?list=PL3702BD1DF5AE219C&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Couch Bomb</h2>
-											<p>Wrote, Shot and Edited</p>
-										</div>
-									</figcaption>	 -->	
-								</figure></a>
-								<a href="https://www.youtube.com/embed/VbXO3VhXAA0?list=UUbE5PV-S-t8SNvvgaWG48Fg&amp;showinfo=0" target="_blank">
-								<figure>
-									<iframe width="480" height="270" src="https://www.youtube.com/embed/VbXO3VhXAA0?list=UUbE5PV-S-t8SNvvgaWG48Fg&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-									<!-- <figcaption>
-										<div>
-											<h2>Joke</h2>
-											<p>Shot and Edited</p>
-										</div>
-									</figcaption>	 -->	
-								</figure></a>
 						</div>
 					</section>
 
@@ -277,12 +243,12 @@
 								<h2>About Me</h2>
 							</header>
 
-							<!-- <img class="image featured" src="" alt="" /> -->
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 							
 							<p>My name is Paul Anderson.  I also go by Ace.<br>
 								I've been working with video for over a decade.  I've written, shot, edited, composited and done sound design for many projects.  I help produce a local web series, "The Freebox" as well as a few films.  I love doing video produciton, especially comedy skits.</p>
 								<p>I got into web design out of curiousity; seeing the direction the web was heading I figured I could combine my skills.  I now have about 5 years of web design and development under my belt; my focus going towards visually interesting sites with engaging interactive content.</p>
-								<p>I also practice Parkour and I'm a firm believer in pushing human potential.
+								<p>I also practice Parkour and I'm a firm believer in pushing human potential.</p>
 
 						</div>
 					</section>
@@ -297,28 +263,22 @@
 
 							<p>If you're looking for a site designed, coded and or integrated into a CMS; such as WordPress or Drupal.  Or, if you have a video idea that you want to see come to life.  Send me a message and I will get back to you shortly.</p>
 							
-							<form method="post" action="send_contact.php">
-
-                    <div class="row 50%">
-                        <div class="6u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-                    </div>
-                    <div class="row 50%">
-                        <div class="6u"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                        <div class="6u"><input type="text" name="email" placeholder="Email" /></div>
-                    </div>
-                    <div class="row 50%">
-                        <div class="12u">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="12u">
-                            <input type="submit" value="Send"/>
-                            <input type="reset" value="Reset">
-                        </div>
-                    </div>
-
-                </form>
+							<form method="post" action="#">
+								<div class="row 50%">
+									<div class="6u"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u"><input type="text" name="email" placeholder="Email" /></div>
+								</div>
+								<div class="row 50%">
+									<div class="12u">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<div class="12u">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
 
 						</div>
 					</section>
@@ -330,16 +290,10 @@
 				
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; Die Laughing Media. All rights reserved.</li><li>Theme Design By: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Die Laughing Media. All rights reserved.</li></li>
 					</ul>
 				
 			</div>
-			<script src="js/jquery.min.js"></script>
-			<script src="js/jquery.scrolly.min.js"></script>
-			<script src="js/jquery.scrollzer.min.js"></script>
-			<script src="js/skel.min.js"></script>
-			<script src="js/skel-layers.min.js"></script>
-			<script src="js/init.js"></script>
 
 	</body>
 </html>
